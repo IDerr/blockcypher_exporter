@@ -4,7 +4,7 @@ Metrics are retrieved using the BlockCypher REST API.
 
 To run it:
 
-    go build src/app.go -o bin/blockcypher_exporter
+    go build app.go -o bin/blockcypher_exporter
     bin/blockcypher_exporter [flags]
 
 ## Exported Metrics
