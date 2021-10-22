@@ -25,6 +25,7 @@ To run it:
 ## Env Variables
 
 Use a .env file in the local folder, or /etc/sysconfig/blockcypher_exporter
+Possible values can be found on [BlockCypher docs](https://www.blockcypher.com/dev/bitcoin/#restful-resources)
 ```
 CHAIN="main"
 COIN="eth"
