@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  blockcypher_exporter:
+    container_name: blockcypher_exporter
+    build: .
+    environment:
+      CHAIN: "${CHAIN}"
+      COIN: "${COIN}"
+    ports:
+      - "9141:9141"
