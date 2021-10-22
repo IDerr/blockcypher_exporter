@@ -16,9 +16,8 @@ on:
     branches: [ main ]
 
 env:
-  # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
-
+  REGISTRY: docker.io
 
 jobs:
   build:
