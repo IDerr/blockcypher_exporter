@@ -10,4 +10,4 @@ RUN go build -v -o bin/app app.go
 
 EXPOSE 9144
 
-CMD ["./src/app"]
+CMD ["./bin/app"]
